@@ -1,0 +1,362 @@
+@media screen and (min-width:768px){
+    .header {
+        height : 70px;
+    }
+    .headerin {
+        height: 70px;
+    }
+    .header .logo {
+        width: 195px;
+        height: auto;
+    }
+    .menu .menu_list ul {
+        margin : 0 50px;
+    }
+    .menu .menu_list ul li a {
+        height: 250px;
+        padding : 20px 30px;
+    }
+    .menu .menu_list ul li a .menu_name{
+        font-size: 19px;
+        margin-bottom: 13px;
+        font-weight: 700;
+    }
+    .menu .menu_list ul li a .menu_text1 {
+        font-size: 15px;
+        margin-bottom: 15px;
+        line-height: 20px;
+    }
+    .menu .menu_list ul li a .btn_more {
+        width: 30px;
+    }
+    .menu .menu_list .menu_r1 {
+        right: 33px;
+        bottom : 27px
+    }
+    .menu .menu_list .menu_r2 {
+        right: 33px;
+        bottom: 27px;
+    }
+    .menu .menu_list .menu_r3 {
+        right: 8px;
+        bottom: 25px;
+    }
+    .menu .menu_list .menu_r4 {
+        right: 20px;
+        bottom : 25px;
+    }
+    .menu .menu_list .menu_r1 .menu_img_mo,
+    .menu .menu_list .menu_r2 .menu_img_mo,
+    .menu .menu_list .menu_r3 .menu_img_mo,
+    .menu .menu_list .menu_r4 .menu_img_mo {
+        display: none;
+    }
+    .menu .menu_list .menu_r1 .menu_img_pc{
+        display: block;
+        width: 85px;
+        height: auto;
+    }
+    .menu .menu_list .menu_r2 .menu_img_pc{
+        display: block;
+        width: 73px;
+        height: auto;
+    }
+    .menu .menu_list .menu_r3 .menu_img_pc {
+        display: block;
+        width: 180px;
+        height: auto;
+    }
+    .menu .menu_list .menu_r4 .menu_img_pc{
+        display: block;
+        width: 120px;
+        height: auto;
+    }
+}
+@media screen and (min-width:1200px) {
+    .wrap {
+        max-width: 1920px;
+    }
+    /*헤더 시작*/
+    .header {
+        height: 100px;
+    }
+    .headerin {
+        width : 1224px;
+        height: 100px;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+    }
+    .header .logo  {
+        width: 234px;
+        height: auto;
+    }
+    .header .logo .logo_mo {
+        display: none;
+    }
+    .header .logo .logo_pc {
+        display: block;
+    }
+    .open_menu {
+        display: none;
+    }
+    .header .pc_gnb {
+        display: block;
+        position: absolute;
+        bottom: 10px;
+        right: 20px;
+    }
+    .header .pc_gnb ul {
+        display: flex;
+    }
+    .header .pc_gnb ul li {
+        margin-left: 40px;
+    }
+    .header .pc_gnb ul li a {
+        color : #333;
+        font-weight: 700;
+        font-size: 17px;
+    }
+    .header .pc_utill {
+        display: block;
+        position: absolute;
+        top : 10px;
+        right: 20px;
+    }
+    .header .pc_utill ul {
+        display : flex;
+    }
+    .header .pc_utill ul li {
+        margin-left: 30px;
+    }
+    .header .pc_utill ul li a {
+        color : #555;
+        font-size: 13px;
+    }
+    .header .pc_utill ul li a:hover {
+        color : #222;
+    }
+    /*헤더 끝*/
+    /*본문 1 시작*/
+    .main_slide {
+        margin-bottom: 100px;
+    }
+    .main_slide .mo {
+        display: none;
+    }
+    .main_slide .pc {
+        display: block;
+    }
+    /*본문 1 끝*/
+    /*본문 2 시작*/
+    .section2 {
+        padding-bottom: 100px;
+    }
+    .section2_in {
+        width: 1224px;
+        margin-left : auto;
+        margin-right: auto;
+    }
+    .menu h2 {
+        font-size: 33px;
+        margin-bottom: 50px;
+    }
+    .menu .menu_list ul {
+        margin : 0;
+    }
+    .menu .menu_list ul .list1{
+        margin-right: 12px;
+        margin-bottom: 24px;
+    } 
+    .menu .menu_list ul .list2,
+    .menu .menu_list ul .list4 {
+        margin-left: 12px;
+    }
+    .menu .menu_list ul li a{
+        height: 400px;
+        border-radius: 55px;
+        padding : 60px 60px;
+    }
+    .menu .menu_list ul li a .menu_name {
+        font-size: 24px;
+        margin-bottom: 30px;
+    }
+    .menu .menu_list ul li a .menu_text1 {
+        display: none;
+    }
+    .menu .menu_list ul li a .menu_text2 {
+        display: block;
+        font-size: 18px;
+        margin-bottom: 30px;
+        line-height: 25px;
+    }
+    .menu .menu_list ul li a .btn_more {
+        width: 50px;
+    }
+
+    .menu .menu_list .menu_r1 {
+        right: 73px;
+        bottom : 47px
+    }
+    .menu .menu_list .menu_r2 {
+        right: 70px;
+        bottom: 47px;
+    }
+    .menu .menu_list .menu_r3 {
+        right: 28px;
+        bottom: 45px;
+    }
+    .menu .menu_list .menu_r4 {
+        right: 40px;
+        bottom : 45px;
+    }
+    .menu .menu_list .menu_r1 .menu_img_pc{
+        width: 105px;
+        height: auto;
+    }
+    .menu .menu_list .menu_r2 .menu_img_pc{
+        width: 94px;
+        height: auto;
+    }
+    .menu .menu_list .menu_r3 .menu_img_pc{
+        width: 272px;
+        height: auto;
+    }
+    .menu .menu_list .menu_r4 .menu_img_pc {
+        width: 173px;
+        height: auto;
+        
+    }
+    /*본문 2 끝*/
+    /*본문 3 시작*/
+    .band_bn1_mo {
+        display: none;
+    }
+    .band_bn1_pc {
+        display: block;
+        position: relative;
+        width: 100%;
+        height: 456px;
+        background-image: url("../img/band_banner1_pc.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .band_bn1_pc .bn_text {
+        padding : 112px 0;
+        position: absolute;
+        top : 0;
+        right: 40%;
+        transform: translateX(114%);
+    }
+    .band_bn1_pc .bn_text .text1 {
+        font-size: 30px;
+        font-weight: 700;
+        color : #fff;
+        line-height: 40px;
+        margin-bottom: 20px;
+    }
+    .band_bn1_pc .bn_text .text2 {
+        font-size: 17px;
+        font-weight: 400;
+        color : rgba(255,255,255,0.9);
+        line-height: 23px;
+        margin-bottom: 20px;
+    }
+    .band_bn1_pc .bn_text .btn_group {
+        display: flex;
+    }
+    .band_bn1_pc .bn_text .btn_group div a {
+        display: block;
+        width: 100px;
+        height: 35px;
+        border : 1px solid #fff;
+        line-height: 35px;
+        text-align: center;
+        color : #fff;
+    }
+    .band_bn1_pc .bn_text .btn_group div:nth-child(2) {
+        margin : 0 10px;
+    }
+    .band_bn2_mo {
+        display: none;
+    }
+    .band_bn2_pc {
+        display: block;
+        position: relative;
+        width: 100%;
+        height: 400px;
+        background-image: url("../img/band_banner2_pc.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        margin-bottom: 100px;
+    }
+    .band_bn2_pc .bn_text {
+        padding : 91px 0;
+        position: absolute;
+        top: 0;
+        left: 40%;
+        transform: translateX(-95%);
+
+    }
+    .band_bn2_pc .bn_text .text1 {
+        font-size: 30px;
+        font-weight: 700;
+        color : #fff;
+        line-height: 40px;
+        margin-bottom: 20px;
+    }
+    .band_bn2_pc .bn_text .text2 {
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 23px;
+        color : rgba(255,255,255,0.9);
+        margin-bottom: 20px;
+    }
+    .band_bn2_pc .bn_text .bn_btn a{
+        display: block;
+        width: 100px;
+        height: 35px;
+        line-height: 35px;
+        text-align: center;
+        border : 1px solid #fff;
+        color : #fff;
+    }
+    /*본문 3 끝*/
+    /*본문 4 시작*/
+    .section4 {
+        margin-bottom: 100px;
+    }
+    .sns h2 {
+        font-size: 35px;
+        margin-bottom: 50px;
+    }
+    .sns ul li:nth-child(2){
+        margin: 0 100px;
+    }
+    .sns ul li a {
+        display: block;
+        width: 32px;
+    }
+    .sns ul li a .sns_mo {
+        display: none;
+    }
+    .sns ul li a .sns_pc {
+        display: block;
+    }
+    /*본문 4 끝*/
+    /*푸터 시작*/
+    .footer .f_menu ul li{
+        margin : 0 42px;
+    }
+    .footer .f_menu ul li a {
+        font-size: 16px;
+    }
+    .footer .f_logo {
+        margin : 34px auto;
+        width: 524px;
+    }
+    .footer .info {
+        font-size: 14px;
+    }
+    /*푸터 끝*/
+}
