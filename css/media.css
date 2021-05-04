@@ -90,6 +90,7 @@
     .header .logo  {
         width: 234px;
         height: auto;
+        margin : 0;
     }
     .header .logo .logo_mo {
         display: none;
@@ -110,7 +111,7 @@
         display: flex;
     }
     .header .pc_gnb ul li {
-        margin-left: 40px;
+        margin-left: 60px;
     }
     .header .pc_gnb ul li a {
         color : #333;
