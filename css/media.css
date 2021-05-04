@@ -270,7 +270,7 @@
         width: 100px;
         height: 35px;
         border : 1px solid #fff;
-        line-height: 35px;
+        line-height: 33px;
         text-align: center;
         color : #fff;
     }
@@ -316,7 +316,7 @@
         display: block;
         width: 100px;
         height: 35px;
-        line-height: 35px;
+        line-height: 33px;
         text-align: center;
         border : 1px solid #fff;
         color : #fff;
