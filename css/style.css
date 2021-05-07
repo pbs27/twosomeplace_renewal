@@ -201,7 +201,7 @@ body {
 }
 .band_bn1_mo .bn_text {
     width: 100%;
-    padding-top: 45px;
+    padding-top: 55px;
 }
 .band_bn1_mo .bn_text .text1 {
     text-align: center;
@@ -228,6 +228,7 @@ body {
     width: 52%;
     padding : 4px 0;
     border : 1px solid #fff;
+    border-radius: 5px;
 }
 .band_bn1_pc {
     display: none;
@@ -256,9 +257,10 @@ body {
 .band_bn2_mo .bn_text .text2 {
     color : #fff;
     font-size: 13px;
-    text-align: center;
     line-height: 22px;
-    margin-bottom: 20px;
+    margin: 0 auto 20px auto ;
+    width: 82%;
+    text-align: center;
 }
 .band_bn2_mo .bn_text .bn_btn { 
     display: flex;
@@ -273,6 +275,7 @@ body {
     width: 25%;
     padding : 4px 0;
     border : 1px solid #fff;
+    border-radius: 5px;
 }
 .band_bn2_pc {
     display: none;
