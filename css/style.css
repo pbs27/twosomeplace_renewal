@@ -170,7 +170,14 @@ body {
     display: none;
 }
 .menu .menu_list ul li a .btn_more {
+    position: relative;
     width: 25px;
+}
+.menu .menu_list ul li a .btn_more .hov {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
 }
 .menu .menu_list ul li a .btn_more img {
     width: 100%;
