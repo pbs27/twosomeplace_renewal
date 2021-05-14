@@ -193,6 +193,22 @@
     }
     .menu .menu_list ul li a .btn_more {
         width: 50px;
+        position: relative;
+    }
+    .menu .menu_list ul li a .btn_more img {
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left : 0;
+    }
+    .menu .menu_list ul li a .btn_more > .r_arrow {
+        opacity: 0;
+    }
+    .menu .menu_list ul li a .btn_more:hover > .r_arrow {
+        opacity: 1;
+    }
+    .menu .menu_list ul li a .btn_more:hover > .plus {
+        opacity : 0;
     }
     .menu .menu_list .menu_r1 {
         right: 73px;
