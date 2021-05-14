@@ -194,7 +194,6 @@
     .menu .menu_list ul li a .btn_more {
         width: 50px;
     }
-.menu .menu_list ul li a .btn_more
     .menu .menu_list .menu_r1 {
         right: 73px;
         bottom : 47px
@@ -368,7 +367,7 @@
         width: 100px;
         height: 35px;
         background-color: #fff;
-        transition: transform 0.6s cubic-bezier(0.53, 0.21, 0, 1);;
+        transition: transform 0.6s cubic-bezier(0.53, 0.21, 0, 1);
     }
     .band_bn2_pc .bn_text .bn_btn a:hover span {
         color : #111;
