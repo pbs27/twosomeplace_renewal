@@ -1,13 +1,17 @@
 @media screen and (min-width:768px){
     .header {
-        height : 70px;
+        height : 72px;
     }
     .headerin {
-        height: 70px;
+        height: 72px;
     }
     .header .logo {
         width: 195px;
         height: auto;
+    }
+    .header .open_menu {
+        width: 32px;
+        margin-right: 18px;
     }
     .menu .menu_list ul {
         margin : 0 50px;
@@ -70,6 +74,13 @@
         display: block;
         width: 120px;
         height: auto;
+    }
+    .s_login {
+        height: 72px;
+        background-color: #55565a;
+    }
+    .s_login a {
+        line-height: 72px;
     }
 }
 @media screen and (min-width:1200px) {
@@ -201,14 +212,23 @@
         top: 0;
         left : 0;
     }
+    .menu .menu_list ul li a .btn_more .r_arrow {
+        display: block;
+    }
     .menu .menu_list ul li a .btn_more > .r_arrow {
         opacity: 0;
+        transition: opacity 1s;
+    }
+    .menu .menu_list ul li a .btn_more > .plus {
+        opacity: 1;
+        transition: opacity 1s;
     }
     .menu .menu_list ul li a .btn_more:hover > .r_arrow {
         opacity: 1;
     }
     .menu .menu_list ul li a .btn_more:hover > .plus {
         opacity : 0;
+        
     }
     .menu .menu_list .menu_r1 {
         right: 73px;
