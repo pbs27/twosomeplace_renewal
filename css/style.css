@@ -132,7 +132,6 @@ body {
 }
 .menu .menu_list ul li {
     width: 50%;
-    
 }
 .menu .menu_list ul .list1  {
     margin-right: 7px;
@@ -149,7 +148,7 @@ body {
 }
 .menu .menu_list ul li a {
     display: block;
-    background-color: #403731;
+    background-color: #806751;
     border-radius: 24px;
     color : #fefefe;
     padding : 13px 16px;
@@ -157,10 +156,10 @@ body {
     position: relative;
 }
 .menu .menu_list ul .list2 a {
-    background-color: #F6907B;
+    background-color: #e98b51;
 }
 .menu .menu_list ul .list3 a{
-    background-color: #F9A540;
+    background-color: #c68e69;
 }
 .menu .menu_list ul .list4 a {
     background-color: #EBBC9E;
@@ -192,7 +191,7 @@ body {
 .menu .menu_list .menu_r3,
 .menu .menu_list .menu_r4{
     position: absolute;
-    right: 10px;
+    right: 20px;
     bottom : 20px;
 }
 
@@ -430,9 +429,6 @@ body {
 .s_gnb .d1 .m1.on {
     background-image: url(../img/arr_u03.png);
     color : #ca113a;
-}
-.s_gnb .d1 .sub {
-    /*display: none;*/
 }
 .s_gnb .d1 .sub ul {
     border-top: 1px solid #ddd;

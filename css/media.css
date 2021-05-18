@@ -118,7 +118,7 @@
     .header .pc_gnb {
         display: block;
         position: absolute;
-        top : 38px;
+        top : 42px;
         right: 0;
         overflow : hidden;
     }
@@ -130,7 +130,7 @@
     }
     .header .pc_gnb .d1 .m1 {
         display: block;
-        padding : 15px 40px;
+        padding : 12px 40px;
         color : #333;
         font-weight: 700;
         font-size: 17px;
