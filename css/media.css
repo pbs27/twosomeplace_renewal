@@ -1,4 +1,7 @@
 @media screen and (min-width:768px){
+    .wrap {
+        padding-top: 72px;
+    }
     .header {
         height : 72px;
     }
@@ -13,6 +16,26 @@
         width: 32px;
         margin-right: 18px;
     }
+        .section1 ul.slick-dots {
+    position: absolute;
+    left: 0;
+    bottom : 1.5%;
+    width: 100%;
+    text-align: center;
+}
+.section1 ul.slick-dots li {
+    display: inline-block;    
+    margin : 0 4px;
+}
+.section1 ul.slick-dots li button {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border : 1px solid #ddd;
+    text-indent: -98798798px;
+    background-color: #ccc;
+    cursor : pointer;
+}
     .menu .menu_list ul {
         margin : 0 50px;
     }
@@ -85,12 +108,14 @@
 }
 @media screen and (min-width:1260px) {
     .wrap {
-        max-width: 1920px;
+        padding-top: 90px;
     }
     /*헤더 시작*/
     .header {
         height: 90px;
-        position: relative;
+        position: fixed;
+        top: 0;
+        left: 0;
         z-index : 500;
     }
     .headerin {
@@ -186,15 +211,60 @@
     }
     /*헤더 끝*/
     /*본문 1 시작*/
-    .main_slide {
-        margin-bottom: 100px;
+    #container .b1img .pc {
+        display: block;
+        width: auto;
+        height: 100%;
     }
-    .main_slide .mo {
+    .section1 {
+        width: 100%;
+        height: 700px;
+        position: relative;
+        margin-bottom: 100px;
+        overflow: hidden;
+    }
+    .b1box {
+        height: 700px;
+        position: relative;
+        overflow: hidden;
+    }
+    .b1box a {
+        display: block;
+        position: absolute;
+        top: 0;
+        left : 50%;
+        margin-left: -960px;
+    }
+    .b1box a img {
+        height: 700px;
+    }
+
+    .b1img .mo {
         display: none;
     }
-    .main_slide .pc {
+    .b1img .pc {
         display: block;
     }
+        .section1 ul.slick-dots {
+    position: absolute;
+    left: 0;
+    bottom : 3px;
+    width: 100%;
+    text-align: center;
+}
+.section1 ul.slick-dots li {
+    display: inline-block;    
+    margin : 0 4px;
+}
+.section1 ul.slick-dots li button {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    border : 1px solid #ddd;
+    text-indent: -98798798px;
+    background-color: #ccc;
+    cursor : pointer;
+}
     /*본문 1 끝*/
     /*본문 2 시작*/
     .section2 {

@@ -49,3 +49,10 @@ $('.pc_gnb').mouseover(function () {
     });
     $('.subBg').stop().slideUp();
 });
+$('.b1img').slick({
+    dots: true,
+    arrows: false,
+    autoplay: true,
+    autoplaySpeed: 4000,
+    speed: 1500,
+});
