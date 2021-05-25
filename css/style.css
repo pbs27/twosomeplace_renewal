@@ -71,8 +71,8 @@ body {
     top: 90px;
     left: 0;
     width: 100%;
-    height: 230px;
-    background-color: rgb(254, 254, 254);
+    height: 280px;
+    background-color: #403d3c;
 }
 #container img {
     width: 100%;
@@ -87,7 +87,8 @@ body {
 .b1img .pc {
     display: none;
 }
-    .section1 ul.slick-dots {
+
+.section1 ul.slick-dots {
     position: absolute;
     left: 0;
     bottom : 3px;
@@ -108,8 +109,8 @@ body {
     cursor : pointer;
 }
 .section1 ul.slick-dots li.slick-active button {
-    background-color: #55565a;
-    border-color: #e795a7;
+    background-color: #806751;
+    border-color: #55565a;
 }
 .section2 {
     position: relative;
@@ -212,7 +213,7 @@ body {
 .band_bn1_mo {
     position: relative;
     width: 100%;
-    background-image: url("../img/band_banner1_mobile.jpg");
+    background-image: url("../img/band_bn1_mo.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     padding-bottom: 220px;
@@ -225,13 +226,13 @@ body {
 .band_bn1_mo .bn_text .text1 {
     text-align: center;
     font-size: 18px;
-    color : #fefefe;
+    color : #E7DAC4;
     margin-bottom: 20px;
 }
 .band_bn1_mo .bn_text .text2 {
     text-align: center;
     font-size: 13px;
-    color : #fefefe;
+    color : #E7DAC4;
     margin-bottom: 20px;
 }
 .band_bn1_mo .bn_text .bn_btn { 
@@ -241,12 +242,12 @@ body {
 }
 .band_bn1_mo .bn_text .bn_btn a{
     text-align: center;
-    color : #fefefe;
+    color : #E7DAC4;
     font-size: 12px;
     display: block;
-    width: 52%;
+    width: 200px;
     padding : 4px 0;
-    border : 1px solid #fefefe;
+    border : 1px solid #E7DAC4;
     border-radius: 5px;
 }
 .band_bn1_pc {
@@ -255,7 +256,7 @@ body {
 .band_bn2_mo {
     position: relative;
     width: 100%;
-    background-image: url("../img/band_banner2_mobile.jpg");
+    background-image: url("../img/band_bn2_mobile.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     padding-bottom: 250px;
@@ -291,7 +292,7 @@ body {
     color : #fefefe;
     font-size: 12px;
     display: block;
-    width: 25%;
+    width: 200px;
     padding : 4px 0;
     border : 1px solid #fefefe;
     border-radius: 5px;
